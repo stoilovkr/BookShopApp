@@ -1,0 +1,31 @@
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.book-image {
+    width: 100px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 40%;
+}
+
+.author-label {
+    color: #999999;
+    font-size: small;
+}
+
+.synopsis-text {
+    font-style: italic;
+}
+
+.badge {
+    width: 50px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,14 @@
+<div id="shopping-cart-container" class="col col-lg-5">
+    <ul class="list-group list-group-flush">
+        <li *ngFor="let shoppingCartDetail of shoppingCart.shoppingCartDetails" class="list-group-item">
+            <span class="left">{{shoppingCartDetail.bookEntity.title}}</span>
+            <span class="right">{{shoppingCartDetail.price}} MKD</span>
+        </li>
+        <li id="total" class="list-group-item">
+            <span class="left">Total:</span>
+            <span class="right">{{shoppingCart.total}} MKD</span>
+        </li>
+     </ul>
+     <button id="buy-btn" type="button" class="btn btn-success right" (click)="finishOrder()">Buy</button>
+</div>
+    

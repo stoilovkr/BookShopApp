@@ -1,0 +1,16 @@
+<div *ngIf="book" class="card col col-lg-8">
+    <span style="display:block">
+        <a class="back" routerLink="/catalog">
+            <img class="back-image" src="../assets/back_icon.png">
+            Back to catalog
+        </a>
+    </span>
+    <img class="card-img-top book-image" src="assets/dummy_image.jpg" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">{{book.title | uppercase}}</h5>
+        <p class="author-label">{{book.authorEntity.fullName}}</p>
+        <p class="card-text synopsis-text">{{book.synopsis}}</p>
+        <p class="card-text price">Price: {{book.price}} MKD</p>
+        <button class="btn btn-success" (click)="addToCart()">Add to cart</button>
+    </div>
+</div>

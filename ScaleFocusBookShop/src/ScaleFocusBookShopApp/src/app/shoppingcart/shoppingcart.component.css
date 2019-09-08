@@ -1,0 +1,15 @@
+#total {
+    font-weight: bold;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+#buy-btn {
+    margin: 10px;
+}

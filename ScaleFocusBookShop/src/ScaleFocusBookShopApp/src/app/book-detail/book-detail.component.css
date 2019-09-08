@@ -1,0 +1,52 @@
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.book-image {
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+.author-label {
+    color: #999999;
+    font-size: small;
+}
+
+.synopsis-text {
+    font-style: italic;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.back-image {
+    width: 15px;
+    height: 15px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #000;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: #000;
+  }
